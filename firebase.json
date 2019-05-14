@@ -1,0 +1,19 @@
+{
+  "database": {
+    "rules": "database.paani.json"
+  },
+  "hosting": {
+    "public": "Paani",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
